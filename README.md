@@ -120,8 +120,7 @@ Gepruefte Bereiche
 
 ## Erweiterungen
 
-Diese Version beschreibt sauber, dass dein Projekt **bereits** Buttons klicken kann,  
-aber **leicht erweiterbar** ist für **komplexere Benutzerinteraktionen** (z. B. Textfelder, Auswahlmenüs, etc.).
+Die Doku beschreit das das Programm **leicht erweiterbar** ist für **komplexere Benutzerinteraktionen** (z. B. Textfelder, Auswahlmenüs, etc.).
 Beispiel: Automatisches Ausloesen eines Buttons innerhalb eines Dialogfensters:
 
 ```java
