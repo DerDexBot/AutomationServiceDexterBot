@@ -40,3 +40,9 @@
 2025-10-14 19:16:29.210 INFO  [Window-Monitor] d.a.a.service.WindowMonitorService - Starte Überwachung für Fenster 'UnbekanntesFenster'
 2025-10-14 19:16:30.223 INFO  [main] d.a.a.service.WindowMonitorService - Überwachung gestoppt.
 2025-10-14 19:16:30.379 INFO  [main] d.automation.assistant.ui.MainWindow - UI erfolgreich initialisiert
+2025-10-14 19:53:31.321 INFO  [AWT-EventQueue-0] d.a.assistant.ApplicationLauncher - Standard-Logdatei erstellt: C:\Users\r\Desktop\Schule\2.lj\Modul 293 Web-Auftritte\Projekte\window-bot\logs\automation-assistant.log
+2025-10-14 19:53:31.348 INFO  [AWT-EventQueue-0] d.automation.assistant.ui.MainWindow - UI erfolgreich initialisiert
+2025-10-14 19:53:48.552 INFO  [AWT-EventQueue-0] d.a.assistant.ApplicationLauncher - Standard-Logdatei erstellt: C:\Users\r\Desktop\Schule\2.lj\Modul 293 Web-Auftritte\Projekte\window-bot\logs\automation-assistant.log
+2025-10-14 19:53:48.581 INFO  [AWT-EventQueue-0] d.automation.assistant.ui.MainWindow - UI erfolgreich initialisiert
+2025-10-14 19:59:12.490 INFO  [AWT-EventQueue-0] d.a.assistant.ApplicationLauncher - Standard-Logdatei erstellt: C:\Users\r\Desktop\Schule\2.lj\Modul 293 Web-Auftritte\Projekte\window-bot\logs\automation-assistant.log
+2025-10-14 19:59:12.521 INFO  [AWT-EventQueue-0] d.automation.assistant.ui.MainWindow - UI erfolgreich initialisiert
