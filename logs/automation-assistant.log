@@ -1,0 +1,42 @@
+2025-10-14 18:58:20.841 INFO  [AWT-EventQueue-0] d.a.a.util.ApplicationLauncher - Logverzeichnis gesetzt auf: C:\Users\r\Desktop\botlogs
+2025-10-14 18:58:20.870 INFO  [AWT-EventQueue-0] d.automation.assistant.ui.MainWindow - UI erfolgreich initialisiert
+2025-10-14 18:58:38.124 INFO  [AWT-EventQueue-0] d.automation.assistant.ui.MainWindow - Fenster manuell registriert: 'Medien-wiedergabe'
+2025-10-14 18:58:39.875 INFO  [AWT-EventQueue-0] d.automation.assistant.ui.MainWindow - Starte Button-Positionsauswahl …
+2025-10-14 18:58:42.070 INFO  [AWT-EventQueue-0] d.automation.assistant.ui.MainWindow - Button-Position gespeichert bei 1184,53
+2025-10-14 18:58:44.527 INFO  [AWT-EventQueue-0] d.automation.assistant.ui.MainWindow - Simulierter Klick ausgeführt bei 1184,53
+2025-10-14 18:58:46.267 INFO  [AWT-EventQueue-0] d.automation.assistant.ui.MainWindow - Starte Bot-Überwachung für 'Medien-wiedergabe'
+2025-10-14 18:58:46.268 INFO  [Window-Monitor] d.a.a.service.WindowMonitorService - Starte Überwachung für Fenster 'Medien-wiedergabe'
+2025-10-14 18:58:50.290 INFO  [Window-Monitor] d.a.a.service.WindowMonitorService - Fenster erkannt: Medien-wiedergabe
+2025-10-14 18:58:50.290 INFO  [Window-Monitor] d.a.a.service.AutomationService - Automatische Aktion: Fenster 'Medien-wiedergabe' wird geschlossen.
+2025-10-14 18:58:50.290 INFO  [Window-Monitor] d.a.assistant.util.WindowsUtils - Sende WM_CLOSE an Fenster 'Medien-wiedergabe'
+2025-10-14 18:58:52.301 INFO  [Window-Monitor] d.a.a.service.WindowMonitorService - Fenster erkannt: Medien-wiedergabe
+2025-10-14 18:58:52.301 INFO  [Window-Monitor] d.a.a.service.AutomationService - Automatische Aktion: Fenster 'Medien-wiedergabe' wird geschlossen.
+2025-10-14 18:58:52.301 INFO  [Window-Monitor] d.a.assistant.util.WindowsUtils - Sende WM_CLOSE an Fenster 'Medien-wiedergabe'
+2025-10-14 19:01:30.631 INFO  [AWT-EventQueue-0] d.a.assistant.ApplicationLauncher - Standard-Logverzeichnis erstellt: ./logs
+2025-10-14 19:01:30.659 INFO  [AWT-EventQueue-0] d.automation.assistant.ui.MainWindow - UI erfolgreich initialisiert
+2025-10-14 19:02:17.731 INFO  [AWT-EventQueue-0] d.a.a.util.ApplicationLauncher - Log-Datei gewählt: C:\Users\r\Desktop\botlogs\automation-assistant.log
+2025-10-14 19:02:17.734 INFO  [AWT-EventQueue-0] d.a.a.util.ApplicationLauncher - Logdatei gesetzt auf: C:\Users\r\Desktop\botlogs\automation-assistant.log
+2025-10-14 19:02:17.759 INFO  [AWT-EventQueue-0] d.automation.assistant.ui.MainWindow - UI erfolgreich initialisiert
+2025-10-14 19:02:30.387 INFO  [AWT-EventQueue-0] d.automation.assistant.ui.MainWindow - Fenster manuell registriert: 'Medien-wiedergabe'
+2025-10-14 19:02:31.483 INFO  [AWT-EventQueue-0] d.automation.assistant.ui.MainWindow - Starte Button-Positionsauswahl …
+2025-10-14 19:02:33.690 INFO  [AWT-EventQueue-0] d.automation.assistant.ui.MainWindow - Button-Position gespeichert bei 1192,54
+2025-10-14 19:02:36.385 INFO  [AWT-EventQueue-0] d.automation.assistant.ui.MainWindow - Simulierter Klick ausgeführt bei 1192,54
+2025-10-14 19:02:38.547 INFO  [AWT-EventQueue-0] d.automation.assistant.ui.MainWindow - Starte Bot-Überwachung für 'Medien-wiedergabe'
+2025-10-14 19:02:38.548 INFO  [Window-Monitor] d.a.a.service.WindowMonitorService - Starte Überwachung für Fenster 'Medien-wiedergabe'
+2025-10-14 19:02:44.575 INFO  [Window-Monitor] d.a.a.service.WindowMonitorService - Fenster erkannt: Medien-wiedergabe
+2025-10-14 19:02:44.575 INFO  [Window-Monitor] d.a.a.service.AutomationService - Automatische Aktion: Fenster 'Medien-wiedergabe' wird geschlossen.
+2025-10-14 19:02:44.575 INFO  [Window-Monitor] d.a.assistant.util.WindowsUtils - Sende WM_CLOSE an Fenster 'Medien-wiedergabe'
+2025-10-14 19:02:48.594 INFO  [Window-Monitor] d.a.a.service.WindowMonitorService - Fenster erkannt: Medien-wiedergabe
+2025-10-14 19:02:48.594 INFO  [Window-Monitor] d.a.a.service.AutomationService - Automatische Aktion: Fenster 'Medien-wiedergabe' wird geschlossen.
+2025-10-14 19:02:48.594 INFO  [Window-Monitor] d.a.assistant.util.WindowsUtils - Sende WM_CLOSE an Fenster 'Medien-wiedergabe'
+2025-10-14 19:02:50.607 INFO  [Window-Monitor] d.a.a.service.WindowMonitorService - Fenster erkannt: Medien-wiedergabe
+2025-10-14 19:02:50.607 INFO  [Window-Monitor] d.a.a.service.AutomationService - Automatische Aktion: Fenster 'Medien-wiedergabe' wird geschlossen.
+2025-10-14 19:02:50.607 INFO  [Window-Monitor] d.a.assistant.util.WindowsUtils - Sende WM_CLOSE an Fenster 'Medien-wiedergabe'
+2025-10-14 19:02:52.607 INFO  [Window-Monitor] d.a.a.service.WindowMonitorService - Fenster erkannt: Medien-wiedergabe
+2025-10-14 19:02:52.607 INFO  [Window-Monitor] d.a.a.service.AutomationService - Automatische Aktion: Fenster 'Medien-wiedergabe' wird geschlossen.
+2025-10-14 19:02:52.607 INFO  [Window-Monitor] d.a.assistant.util.WindowsUtils - Sende WM_CLOSE an Fenster 'Medien-wiedergabe'
+2025-10-14 19:16:28.988 INFO  [main] d.a.a.service.AutomationService - Automatische Aktion: Fenster 'FakeWindowTitle' wird geschlossen.
+2025-10-14 19:16:29.202 WARN  [main] d.a.assistant.util.WindowsUtils - Fenster 'FakeWindowTitle' nicht gefunden – nichts zu schließen
+2025-10-14 19:16:29.210 INFO  [Window-Monitor] d.a.a.service.WindowMonitorService - Starte Überwachung für Fenster 'UnbekanntesFenster'
+2025-10-14 19:16:30.223 INFO  [main] d.a.a.service.WindowMonitorService - Überwachung gestoppt.
+2025-10-14 19:16:30.379 INFO  [main] d.automation.assistant.ui.MainWindow - UI erfolgreich initialisiert

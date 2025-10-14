@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!--
+        Logback-Konfiguration für den Automation Assistant
+
+        Diese Datei definiert das Logging-Verhalten für die gesamte Anwendung.
+
+        Hauptfunktionen:
+        - Ausgabe auf der Konsole (zur Laufzeit sichtbar)
+        - Paralleles Mitschreiben in eine Logdatei (.log oder .txt)
+        - Dynamischer Pfad: kann zur Laufzeit über System-Property "log.file" gesetzt werden
+    -->
+
+    <!--
+        Property LOG_FILE:
+
+        Bestimmt den Pfad der Logdatei.
+        Falls kein Pfad über System.setProperty("log.file", ...) angegeben wurde,
+        wird standardmäßig das Verzeichnis "logs/" im aktuellen Arbeitsverzeichnis verwendet.
+     -->
+    <property name="LOG_FILE" value="${log.file:-${user.dir}/logs/automation-assistant.log}" />
+
+    <!--
+        Appender: CONSOLE
+
+        Gibt Logmeldungen in der Konsole (STDOUT) aus.
+        Praktisch für Debugging und Echtzeit-Statusmeldungen während der Laufzeit.
+     -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <!-- Format: Zeit Level [Thread] Logger - Nachricht -->
+            <pattern>%d{HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--
+        Appender: FILE
+
+        Schreibt Logmeldungen zusätzlich in eine Datei.
+        Der Pfad wird durch die Property ${LOG_FILE} bestimmt.
+        "append=true" sorgt dafür, dass Einträge an bestehende Dateien angehängt werden.
+     -->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_FILE}</file>
+        <append>true</append>
+        <encoder>
+            <!--
+                Format: Zeitstempel, Log-Level, Thread, Klasse und Nachricht.
+                Der Zeitstempel nutzt das ISO-Format (Datum + Zeit in Millisekunden).
+             -->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--
+        Root-Logger
+
+        Definiert das Standard-Log-Level und die angeschlossenen Appender.
+        Level "info" bedeutet:
+        - INFO, WARN und ERROR werden geloggt
+        - DEBUG und TRACE werden unterdrückt
+     -->
+    <root level="info">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="FILE" />
+    </root>
+
+</configuration>
