@@ -41,6 +41,7 @@ Das Projekt ist modular aufgebaut und fuer weitere Automatisierungsaufgaben erwe
 - Java 17 oder hoeher
 - Maven installiert (`mvn -v`)
 - Windows Betriebssystem
+- Java IDE
 
 ### 2. Projekt klonen
 ```bash
