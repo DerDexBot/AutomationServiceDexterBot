@@ -12,10 +12,10 @@ Das Programm wurde überarbeitet, da es erstmals auf ein spezifisches Fesnter ei
 Neue Anwendung von dem Update:
 
 - Programm öffnen
-- Fesnter Scannen (Button -> Maus auf Fenster zeigen lassen) und warte bis das Fenster registriert ist (siehe Meldung in dem Client)
+- Fenster Scannen (Button -> Maus auf Fenster zeigen lassen) und warten bis das Fenster registriert ist (siehe Meldung in dem Client)
 - Start Bot
 - Dann warten bis das Child-Window aufgeht
-- Auf Child-Window des Bots den Button registrieren (mit OK) -> Maus auf den gewüschten Button zeigen -> warten
+- Auf Child-Window des Bots den Button registrieren (mit OK) -> Maus auf den gewünschten Button zeigen -> warten
 - Erstmals manuell schliessen
 - Danach geht alles vollautomatisch
 
