@@ -5,10 +5,29 @@ Das Programm erkennt bestimmte Fenster, fuehrt definierte Aktionen aus und kann 
 Es wurde entwickelt mit **Java Swing**, **Logback** und **JNA**.
 
 ---
+## Version 2
+
+Das Programm wurde überarbeitet, da es erstmals auf ein spezifisches Fesnter einstellbar war, was jedoch zu Komplikationen führte, wenn das Child-Window gleich hies.
+
+Neue Anwendung von dem Update:
+
+- Programm öffnen
+- Fesnter Scannen (Button -> Maus auf Fenster zeigen lassen) und warte bis das Fenster registriert ist (siehe Meldung in dem Client)
+- Start Bot
+- Dann warten bis das Child-Window aufgeht
+- Auf Child-Window des Bots den Button registrieren (mit OK) -> Maus auf den gewüschten Button zeigen -> warten
+- Erstmals manuell schliessen
+- Danach geht alles vollautomatisch
+
+## Erweiterungen TODO
+
+- Maus von dem User-Mouse entkoppelt
+- Button Pixel innerhalb des Fensters berechnen
+- evtl wiederholte clicks bis das Child-Window closed ist
 
 ## Projektbeschreibung
 
-**Automation Service Dexter Bots** dient zur Automatisierung von Desktop-Interaktionen auf Windows-Systemen.  
+**Automation Service Bots** dient zur Automatisierung von Desktop-Interaktionen auf Windows-Systemen.  
 Das Tool erkennt geoeffnete Fenster anhand ihres Titels und fuehrt daraufhin Aktionen aus, wie:
 
 - Fenster automatisch schliessen oder benutzerdefinierte Interaktionen

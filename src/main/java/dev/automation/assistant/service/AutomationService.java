@@ -1,5 +1,6 @@
 package dev.automation.assistant.service;
 
+import com.sun.jna.platform.win32.WinDef;
 import dev.automation.assistant.util.WindowsUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -46,4 +47,9 @@ public class AutomationService {
         log.info("Automatische Aktion: Fenster '{}' wird geschlossen.", title);
         WindowsUtils.closeWindow(title);
     }
+//    public void handleWindowByHandle(WinDef.HWND hwnd, String title) {
+//        log.info("Automatische Aktion: Fenster '{}' wird gezielt geschlossen.", title);
+//        WindowsUtils.closeWindow(hwnd, title);
+//    }
+
 }
