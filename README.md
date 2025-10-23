@@ -1,4 +1,4 @@
-# Automation Service Dexter Bots
+# Automation Service Dex Bots
 
 Ein leichtgewichtiges Java-Tool zur Automatisierung von Windows-Fenstern.  
 Das Programm erkennt bestimmte Fenster, fuehrt definierte Aktionen aus und kann Fenster automatisch schliessen oder Buttons klicken.  
